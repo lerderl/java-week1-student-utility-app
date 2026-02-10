@@ -19,19 +19,19 @@ public class StudentUtilityApp {
     switch (taskChoice) {
       case 1:
         System.out.println("You chose to add two numbers");
-        AddTwoNumbers.addition(); // call addition method
+        AddTwoNumbers.addition(); // addition method call
         break;
       case 2:
         System.out.println("You chose to check if a number is EVEN or ODD");
-        IsNumberEvenOrOdd.evenOrOdd();  //  call method to check is number is even or odd
+        IsNumberEvenOrOdd.evenOrOdd();  //  method to check is number is even or odd call
         break;
       case 3:
         System.out.println("You chose to print a list of numbers from 1 to any desired integer number you choose, N");
-        PrintNumbers.print(); //  call print numbers method
+        PrintNumbers.print(); //  print numbers method call
         break;
       case 4:
         System.out.println("You chose to display the day of the week");
-        WeekdayDisplay.displayWeekday();  //  call weekday display method
+        WeekdayDisplay.displayWeekday();  //  weekday display method call
         break;
       case 5:
         System.out.println(THANKS);
