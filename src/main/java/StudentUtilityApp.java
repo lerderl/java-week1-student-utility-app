@@ -23,6 +23,10 @@ public class StudentUtilityApp {
         System.out.println("You chose to check if a number is EVEN or ODD");
         IsNumberEvenOrOdd.evenOrOdd();
         break;
+      case 3:
+        System.out.println("You chose to print a list of numbers from 1 to any desired integer number you choose, N");
+        PrintNumbers.print();
+        break;
       default:
         System.out.println("Please enter an integer number between 1 and 5");
     }
