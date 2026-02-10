@@ -11,5 +11,14 @@ public class StudentUtilityApp {
     Scanner choice = new Scanner(System.in);
     System.out.print("Enter your choice of task to be carried out: ");
     int taskChoice = choice.nextInt();
+
+    switch (taskChoice) {
+      case 1:
+        System.out.println("You chose to add two numbers");
+        AddTwoNumbers.addition();
+        break;
+      default:
+        System.out.println("Please enter an integer number between 1 and 5");
+    }
   }
 }
