@@ -1,4 +1,5 @@
 public class IsNumberEvenOrOdd {
+//  method to check if number is even or odd
   public static void evenOrOdd() {
     System.out.print("Enter the number to you want to check: ");
     int numChoice = StudentUtilityApp.choice.nextInt();

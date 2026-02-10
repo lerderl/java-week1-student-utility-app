@@ -1,4 +1,5 @@
 public class PrintNumbers {
+//  Method to print out number list
   public static void print() {
     System.out.print("Enter your desired number: ");
     int desiredNumber = StudentUtilityApp.choice.nextInt();

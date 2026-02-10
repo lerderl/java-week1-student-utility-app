@@ -1,4 +1,5 @@
 public class AddTwoNumbers {
+//  Method to add two numbers together
   public static void addition() {
     System.out.print("Enter your first number: ");
     int num1 = StudentUtilityApp.choice.nextInt();
