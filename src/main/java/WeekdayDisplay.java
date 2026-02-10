@@ -29,7 +29,7 @@ public class WeekdayDisplay {
           break;
         default:
           System.out.println("Invalid day");
-      };
+      }
 //      Enables the user to attempt the task more than once in case an invalid day is inputted
       if (weekdayNumber < 1 || weekdayNumber > 7) {
         System.out.println("Try again");
